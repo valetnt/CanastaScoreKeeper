@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#37474F</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#FFB74D</color>
+    <color name="colorBigScore1Back">#B71C1C</color>
+    <color name="colorBigScore1Text">@android:color/white</color>
+    <color name="colorBigScore2Back">@android:color/black</color>
+    <color name="colorBigScore2Text">@android:color/white</color>
+    <color name="colorExtraScoreBack">#546E7A</color>
+    <color name="colorExtraScoreText">@android:color/white</color>
+
+</resources>

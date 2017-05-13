@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Canasta Score Keeper</string>
+    <string name="imageContent">app background image</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="initialScore">0</string>
+    <string name="reset">reset</string>
+    <string name="pura">pura +500</string>
+    <string name="impura">impura +100</string>
+    <string name="extra50">+50 punti</string>
+    <string name="extra10">+10 punti</string>
+    <string name="extra5">+5 punti</string>
+</resources>
