@@ -11,7 +11,9 @@
         android:id="@+id/background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:contentDescription="@string/imageContent" />
+        android:contentDescription="@string/imageContent"
+        android:src="@drawable/wood1_portrait"
+        android:scaleType="center"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -55,6 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClickPura"
                     android:text="@string/pura" />
 
                 <Button
@@ -63,6 +66,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClickImpura"
                     android:text="@string/impura" />
 
                 <Button
@@ -71,6 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick50"
                     android:text="@string/extra50" />
 
                 <Button
@@ -79,6 +84,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick10"
                     android:text="@string/extra10" />
 
                 <Button
@@ -87,6 +93,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick5"
                     android:text="@string/extra5" />
 
             </LinearLayout>
@@ -129,6 +136,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClickPura"
                     android:text="@string/pura" />
 
                 <Button
@@ -137,6 +145,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClickImpura"
                     android:text="@string/impura" />
 
                 <Button
@@ -145,6 +154,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick50"
                     android:text="@string/extra50" />
 
                 <Button
@@ -153,6 +163,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick10"
                     android:text="@string/extra10" />
 
                 <Button
@@ -161,6 +172,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/ButtonHeight"
                     android:layout_gravity="center"
+                    android:onClick="onClick5"
                     android:text="@string/extra5" />
 
             </LinearLayout>
@@ -170,17 +182,19 @@
     </LinearLayout>
 
     <FrameLayout
-        android:id="@+id/reset"
+        android:id="@+id/resetFrame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true">
 
         <Button
+            android:id="@+id/reset"
             style="@style/ResetButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="@dimen/HugeMargin"
+            android:onClick="onClickReset"
             android:text="@string/reset" />
 
     </FrameLayout>
@@ -188,7 +202,7 @@
     <TextView
         android:layout_width="1dp"
         android:layout_height="match_parent"
-        android:layout_above="@id/reset"
+        android:layout_above="@id/resetFrame"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="@dimen/MediumMargin"
         android:background="@color/colorPrimaryDark" />

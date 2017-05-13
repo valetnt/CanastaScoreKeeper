@@ -28,7 +28,6 @@
         <item name="android:textColor">@color/colorBigScore1Text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_marginBottom">@dimen/SmallMargin</item>
     </style>
@@ -38,7 +37,6 @@
         <item name="android:textColor">@color/colorBigScore2Text</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_marginBottom">@dimen/SmallMargin</item>
     </style>
@@ -48,7 +46,6 @@
         <item name="android:textColor">@color/colorExtraScoreText</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAllCaps">true</item>
         <item name="android:layout_marginBottom">@dimen/SmallMargin</item>
     </style>
@@ -58,7 +55,6 @@
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif-light</item>
         <item name="android:textAllCaps">true</item>
     </style>
 
